@@ -9,6 +9,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 h1 {
   font-family: SF-Pro-Rounded-Bold, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
@@ -16,6 +17,7 @@ h1 {
   line-height: 48px;
   color: #0a0a0a;
 }
+
 h2 {
   font-family: SF-Pro-Rounded-Bold, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
@@ -28,6 +30,7 @@ h2 {
   font-family: SF-Pro-Rounded-Bold, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
 }
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: 464446;
@@ -293,8 +296,6 @@ h2 {
     @apply bg-background text-foreground;
   }
 }
-
-
 
 ::-webkit-scrollbar {
   width: 8px;

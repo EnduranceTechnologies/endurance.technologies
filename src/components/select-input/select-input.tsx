@@ -14,7 +14,6 @@ interface Item {
   label: string;
 }
 
-
 interface SelectInputProps {
   value: string;
   options: {
