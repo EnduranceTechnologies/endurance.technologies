@@ -7,7 +7,6 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from '../ui/navigation-menu';
-import { formatPhone } from '@/utils/utils';
 
 export function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -52,7 +51,7 @@ export function NavBar() {
       {' '}
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <img src="logo.svg" className="h-8" alt="Wallet CRM" />
+          <img src="logo.svg" className="h-8" alt="Endurance CRM" />
         </div>
 
         {/* Desktop Navigation */}
@@ -169,7 +168,8 @@ export function NavBar() {
           </Button>
           <Button
             variant="ghost"
-            className="justify-start text-blue-900 hover:bg-blue-50" onClick={scrollToSection('feedbacks')}
+            className="justify-start text-blue-900 hover:bg-blue-50"
+            onClick={scrollToSection('feedbacks')}
           >
             Feedbacks
           </Button>
@@ -182,85 +182,16 @@ export function NavBar() {
         <div className="col-span-1 space-y-2">
           <img
             src="logo.svg"
-            alt="Wallet CRM"
+            alt="Endurance CRM"
             className="h-5 opacity-70 grayscale  mb-4"
           />
           <p className="text-sm bold">CNPJ: 61.067.905/0001-73</p>
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Wallet CRM. Todos os direitos
+            © {new Date().getFullYear()} Endurance CRM. Todos os direitos
             reservados.
           </p>
         </div>
       </div>
     </header>
-  );
-}
-
-export function Footer() {
-  return (
-    <footer className="bg-blue-50 text-blue-900 py-10 px-6 sm:px-12 mt-20 border-t border-blue-100">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="col-span-1 space-y-2">
-          <img src="logo.svg" alt="Wallet CRM" className="h-10 mb-4" />
-          <p className="text-sm bold">CNPJ: 61.067.905/0001-73</p>
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Wallet CRM. Todos os direitos
-            reservados.
-          </p>
-        </div>
-
-        <div>
-          <h4 className="font-semibold mb-2">Páginas</h4>
-          <ul className="space-y-1 text-sm">
-            <li>
-              <a href="#hero" className="hover:underline">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#first-step" className="hover:underline">
-                Primeiros Passos
-              </a>
-            </li>
-            <li>
-              <a href="#why-choose-wallet" className="hover:underline">
-                Funcionalidades
-              </a>
-            </li>
-            <li>
-              <a href="#planos" className="hover:underline">
-                Preço
-              </a>
-            </li>
-            <li>
-              <a href="#feedbacks" className="hover:underline">
-                Feedbacks
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-semibold mb-2">Contato</h4>
-          <ul className="space-y-1 text-sm">
-            <li>Email: contato@walletcrm.com.br</li>
-            <li>Telefone: {formatPhone(import.meta.env.VITE_WPP_NUMBER)}</li>
-            <li>
-              <a href="#contact" className="hover:underline">
-                Solicite uma demonstração
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        {/* <div>
-          <h4 className="font-semibold mb-2">Redes Sociais</h4>
-          <ul className="space-y-1 text-sm">
-            <li><a href="#" className="hover:underline">Instagram</a></li>
-            <li><a href="#" className="hover:underline">Facebook</a></li>
-          </ul>
-        </div> */}
-      </div>
-    </footer>
   );
 }
