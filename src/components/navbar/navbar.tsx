@@ -60,7 +60,7 @@ export function NavBar() {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuLink
-                  className="text-blue-900 hover:text-blue-900 bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
+                  className=" bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
                   href="#hero"
                   onClick={scrollToSection('hero')}
                 >
@@ -69,7 +69,7 @@ export function NavBar() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink
-                  className="text-blue-900 hover:text-blue-900 bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
+                  className=" bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
                   href="#hero"
                   onClick={scrollToSection('first-step')}
                 >
@@ -78,7 +78,7 @@ export function NavBar() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink
-                  className="text-blue-900 hover:text-blue-900 bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
+                  className=" bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
                   href="#why-choose-wallet"
                   onClick={scrollToSection('why-choose-wallet')}
                 >
@@ -87,7 +87,7 @@ export function NavBar() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink
-                  className="text-blue-900 hover:text-blue-900 bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
+                  className=" bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
                   href="#planos"
                   onClick={scrollToSection('planos')}
                 >
@@ -96,7 +96,7 @@ export function NavBar() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink
-                  className="text-blue-900 hover:text-blue-900 bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
+                  className=" bold cursor-pointer px-4 py-2 rounded-lg transition-colors duration-200"
                   onClick={scrollToSection('feedbacks')}
                 >
                   Feedbacks
