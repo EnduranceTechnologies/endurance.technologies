@@ -51,7 +51,7 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl lg:text-6xl text-neutral-900 mb-6">
-              {typedText}
+              {typedText} Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam enim quas excepturi rem blanditiis? Itaque dolores ad maiores minima cupiditate qui dignissimos vitae cumque perferendis, veniam quasi officiis possimus enim!
             </h1>
             <p className="text-xl text-neutral-600 mb-8">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, tenetur ipsam? Nemo vero inventore dolores, magni, ullam ipsam quibusdam optio quae porro dicta exercitationem, itaque ratione delectus ab facilis? Necessitatibus!
