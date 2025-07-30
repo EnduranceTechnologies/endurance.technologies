@@ -7,7 +7,7 @@ export function Hero() {
   const [visible, setVisible] = useState(false);
   const [typedText, setTypedText] = useState('');
   const [textIndex, setTextIndex] = useState(0);
-  const fullText = 'Custom Software Solutions On Demand';
+  const fullText = 'nd';
 
   useEffect(() => {
     if (textIndex < fullText.length) {
@@ -54,8 +54,7 @@ export function Hero() {
               {typedText}
             </h1>
             <p className="text-xl text-neutral-600 mb-8">
-              We build scalable, innovative software tailored to your business
-              needs using agile methodologies and cutting-edge technologies.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, tenetur ipsam? Nemo vero inventore dolores, magni, ullam ipsam quibusdam optio quae porro dicta exercitationem, itaque ratione delectus ab facilis? Necessitatibus!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button>
