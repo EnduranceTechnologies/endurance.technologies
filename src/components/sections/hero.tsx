@@ -7,7 +7,7 @@ export function Hero() {
   const [visible, setVisible] = useState(false);
   const [typedText, setTypedText] = useState('');
   const [textIndex, setTextIndex] = useState(0);
-  const fullText = 'nd';
+  const fullText = 'Hello World';
 
   useEffect(() => {
     if (textIndex < fullText.length) {
